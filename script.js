@@ -46,7 +46,7 @@ function toggleExplanation() {
   } else {
     // Show the explanation
     quoteElement.textContent = explanationText;
-    whyButton.innerHTML = '<i class="fas fa-arrow-left"></i> Back to quotes';
+    whyButton.innerHTML = '<i class="fas fa-arrow-left"></i> Back to thoughts';
     showingExplanation = true;
   }
 }
@@ -135,4 +135,5 @@ if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', init);
 } else {
   init();
+
 }
